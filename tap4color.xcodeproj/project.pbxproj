@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FC52BB924C61E6C005D6119 /* highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC52BB824C61E6C005D6119 /* highscore.swift */; };
+		AA030ECD24BCAC3400F7AE95 /* ColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA030ECC24BCAC3400F7AE95 /* ColorLabel.swift */; };
+		AA3CC18224B7667A005692B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CC18124B7667A005692B5 /* AppDelegate.swift */; };
+		AA3CC18624B7667A005692B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CC18524B7667A005692B5 /* MainViewController.swift */; };
+		AA3CC18924B7667A005692B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3CC18724B7667A005692B5 /* Main.storyboard */; };
+		AA3CC18B24B7667C005692B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3CC18A24B7667C005692B5 /* Assets.xcassets */; };
+		AA3CC18E24B7667C005692B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3CC18C24B7667C005692B5 /* LaunchScreen.storyboard */; };
+		AA3CC19624B76745005692B5 /* ColorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CC19524B76745005692B5 /* ColorGenerator.swift */; };
+		AA3CC19824B76CB0005692B5 /* TapCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CC19724B76CB0005692B5 /* TapCounter.swift */; };
+		AA3CC19A24B77458005692B5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CC19924B77458005692B5 /* Helpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FBCE09E24D35BBC0009B453 /* wooloo app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "wooloo app.entitlements"; sourceTree = "<group>"; };
+		6FC52BB824C61E6C005D6119 /* highscore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highscore.swift; sourceTree = "<group>"; };
+		AA030ECC24BCAC3400F7AE95 /* ColorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLabel.swift; sourceTree = "<group>"; };
+		AA3CC17E24B7667A005692B5 /* wooloo1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wooloo1.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3CC18124B7667A005692B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA3CC18524B7667A005692B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AA3CC18824B7667A005692B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3CC18A24B7667C005692B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3CC18D24B7667C005692B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3CC18F24B7667C005692B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3CC19524B76745005692B5 /* ColorGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGenerator.swift; sourceTree = "<group>"; };
+		AA3CC19724B76CB0005692B5 /* TapCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCounter.swift; sourceTree = "<group>"; };
+		AA3CC19924B77458005692B5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3CC17B24B7667A005692B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3CC17524B76679005692B5 = {
+			isa = PBXGroup;
+			children = (
+				AA3CC18024B7667A005692B5 /* tap4color */,
+				AA3CC17F24B7667A005692B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3CC17F24B7667A005692B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CC17E24B7667A005692B5 /* wooloo1.2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3CC18024B7667A005692B5 /* tap4color */ = {
+			isa = PBXGroup;
+			children = (
+				6FBCE09E24D35BBC0009B453 /* wooloo app.entitlements */,
+				AA3CC19724B76CB0005692B5 /* TapCounter.swift */,
+				AA3CC19524B76745005692B5 /* ColorGenerator.swift */,
+				AA030ECC24BCAC3400F7AE95 /* ColorLabel.swift */,
+				6FC52BB824C61E6C005D6119 /* highscore.swift */,
+				AA3CC19B24B77588005692B5 /* Application */,
+				AA3CC19C24B77594005692B5 /* User Interface */,
+				AA3CC18F24B7667C005692B5 /* Info.plist */,
+			);
+			path = tap4color;
+			sourceTree = "<group>";
+		};
+		AA3CC19B24B77588005692B5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CC18124B7667A005692B5 /* AppDelegate.swift */,
+				AA3CC18524B7667A005692B5 /* MainViewController.swift */,
+				AA3CC19924B77458005692B5 /* Helpers.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AA3CC19C24B77594005692B5 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CC18A24B7667C005692B5 /* Assets.xcassets */,
+				AA3CC18724B7667A005692B5 /* Main.storyboard */,
+				AA3CC18C24B7667C005692B5 /* LaunchScreen.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3CC17D24B7667A005692B5 /* tap4color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3CC19224B7667C005692B5 /* Build configuration list for PBXNativeTarget "tap4color" */;
+			buildPhases = (
+				AA3CC17A24B7667A005692B5 /* Sources */,
+				AA3CC17B24B7667A005692B5 /* Frameworks */,
+				AA3CC17C24B7667A005692B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tap4color;
+			productName = tap4color;
+			productReference = AA3CC17E24B7667A005692B5 /* wooloo1.2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3CC17624B76679005692B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Benny Inc.";
+				TargetAttributes = {
+					AA3CC17D24B7667A005692B5 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AA3CC17924B7667A005692B5 /* Build configuration list for PBXProject "tap4color" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3CC17524B76679005692B5;
+			productRefGroup = AA3CC17F24B7667A005692B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3CC17D24B7667A005692B5 /* tap4color */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3CC17C24B7667A005692B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3CC18E24B7667C005692B5 /* LaunchScreen.storyboard in Resources */,
+				AA3CC18B24B7667C005692B5 /* Assets.xcassets in Resources */,
+				AA3CC18924B7667A005692B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3CC17A24B7667A005692B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA030ECD24BCAC3400F7AE95 /* ColorLabel.swift in Sources */,
+				AA3CC18624B7667A005692B5 /* MainViewController.swift in Sources */,
+				AA3CC19624B76745005692B5 /* ColorGenerator.swift in Sources */,
+				AA3CC18224B7667A005692B5 /* AppDelegate.swift in Sources */,
+				6FC52BB924C61E6C005D6119 /* highscore.swift in Sources */,
+				AA3CC19A24B77458005692B5 /* Helpers.swift in Sources */,
+				AA3CC19824B76CB0005692B5 /* TapCounter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA3CC18724B7667A005692B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3CC18824B7667A005692B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3CC18C24B7667C005692B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3CC18D24B7667C005692B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3CC19024B7667C005692B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA3CC19124B7667C005692B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3CC19324B7667C005692B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "tap4color/wooloo app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CL3PQ38D9;
+				INFOPLIST_FILE = tap4color/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bennyinc.Wooloo;
+				PRODUCT_NAME = wooloo1.2;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3CC19424B7667C005692B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "tap4color/wooloo app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CL3PQ38D9;
+				INFOPLIST_FILE = tap4color/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bennyinc.Wooloo;
+				PRODUCT_NAME = wooloo1.2;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3CC17924B7667A005692B5 /* Build configuration list for PBXProject "tap4color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3CC19024B7667C005692B5 /* Debug */,
+				AA3CC19124B7667C005692B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3CC19224B7667C005692B5 /* Build configuration list for PBXNativeTarget "tap4color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3CC19324B7667C005692B5 /* Debug */,
+				AA3CC19424B7667C005692B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3CC17624B76679005692B5 /* Project object */;
+}
