@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 extension MainViewController{
     func highscore(){
-    var highscorekey = "high"
-    var currenthighscore = UserDefaults.standard.integer(forKey: highscorekey)
+    let highscorekey = "high"
+    let currenthighscore = UserDefaults.standard.integer(forKey: highscorekey)
     if tapCount > currenthighscore{
     UserDefaults.standard.set(tapCount, forKey: highscorekey)
         highScoreLabel.text = "\(tapCount)"

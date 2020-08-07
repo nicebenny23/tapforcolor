@@ -28,7 +28,7 @@ extension MainViewController
         // Instructions: Using a for loop, create and return a list of
         //               three (3) random numbers between 0-255.
         var color: [UInt8] = []
-        for i in 1...3 {
+        for _ in 1...3 {
             color.append(generateRandomNumber())
         }
         //print(color)
@@ -41,8 +41,8 @@ extension MainViewController
 
         // Instructions: Using generateThreeNumbers(), create and return a new UIColor object.
         // Hint: Use constructor UIColor(displayP3Red...)
-        var colorstore = generateThreeNumbers()
-        var color = UIColor(displayP3Red: CGFloat(colorstore[0])/255.0, green: CGFloat(colorstore[1])/255.0, blue: CGFloat(colorstore[2])/255.0, alpha: 1.0)
+        let colorstore = generateThreeNumbers()
+        let color = UIColor(displayP3Red: CGFloat(colorstore[0])/255.0, green: CGFloat(colorstore[1])/255.0, blue: CGFloat(colorstore[2])/255.0, alpha: 1.0)
         return color
     }
 

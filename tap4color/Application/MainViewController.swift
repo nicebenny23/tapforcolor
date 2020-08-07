@@ -43,7 +43,7 @@ extension MainViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tapCount = 0
-        var highscorekey = "high"
+        let highscorekey = "high"
         highScoreLabel.text="\(UserDefaults.standard.integer(forKey:highscorekey))"
 
         let labelColor: UIColor = determineLabelColor()
@@ -64,7 +64,7 @@ extension MainViewController {
 
         if  !tap100() {
           
-            tap50()
+            _=tap50()
         }
         
         
@@ -73,7 +73,7 @@ extension MainViewController {
           
         if !tap50(){
         
-        tap10()
+        _=tap10()
            }
             }
     }
